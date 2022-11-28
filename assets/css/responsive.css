@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1240px) {
+   nav,header{
+    padding: 0 10px;
+   }
+  }
+  @media only screen and (max-width: 990px) {
+   .container{
+
+   }
+   .product{
+    width: 45%;
+   }
+   nav{
+    display: none;
+   }
+   .mywebicon{
+    display: none;
+   }
+   .mybars{
+    display: block;
+    padding: 20px
+   }
+   .footer_container{
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  }
+  @media only screen and (max-width: 700px) {
+    .makeup{
+        flex-wrap: wrap;
+    }
+    .call{
+        display: none;
+    }
+    .half-half{
+        flex-wrap: wrap;
+    }
+    .news{
+        width: 100%;
+    }
+    .half-makeup{
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 508px) {
+
+    .product{
+        width: 80%;
+    }
+    .logo img {
+        width: 219px;
+        height: 56px;
+        margin-left: 8px;
+    }
+  }
